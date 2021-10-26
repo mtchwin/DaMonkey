@@ -295,10 +295,12 @@ public class Movement : MonoBehaviour
         Vector2 moveVector = Vector2.zero;
         float width = GetComponentInChildren<BoxCollider2D>().size.x;
         RaycastHit2D hitBonkSlope = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y)+new Vector2(GetComponentInChildren<CircleCollider2D>().offset.x*direction,GetComponentInChildren<CircleCollider2D>().offset.y),Vector2.down,GetComponentInChildren<CircleCollider2D>().radius+extraLength,(1<<3));
-        if(bonkland&&hitBonkSlope!=null&&hitBonkSlope.normal==Vector2.up){
-            if(!sounds[4].isPlaying)
-                sounds[4].Play();
-            bod.AddForce(hitBonkSlope.normal*8);
+        if(hitBonkSlope!=null){
+            if(bonkland&&hitBonkSlope.normal==Vector2.up&&hitBonkSlope.transform.tag!="water"){
+                if(!sounds[4].isPlaying)
+                    sounds[4].Play();
+                bod.AddForce(hitBonkSlope.normal*8);
+            }
         }
         if(!gmanager.introCutscene&&(state=="stand"||state=="walk"||state=="splat"||state=="uncurl")&&!bonk){
             if(inputR){
@@ -321,13 +323,15 @@ public class Movement : MonoBehaviour
             direction = 1;
             //transform.Find("Shadow").localScale = new Vector3(-1,1,1);
         }
-        RaycastHit2D hit = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y)+new Vector2(GetComponentInChildren<BoxCollider2D>().offset.x*direction,GetComponentInChildren<BoxCollider2D>().offset.y)+new Vector2(((width+extraLength)*direction),0)+Vector2.down*GetComponentInChildren<BoxCollider2D>().size.y/2,Vector2.down,extraLength,(1<<3));
-        if (!gmanager.introCutscene&&(state=="stand"||state=="walk"||state =="splat"||state =="uncurl")&&!bonk&&hit.normal==Vector2.up&&hit.collider!=null&&hit.transform.tag!="water"){
+        RaycastHit2D hito = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y)+new Vector2(GetComponentInChildren<BoxCollider2D>().offset.x*direction,GetComponentInChildren<BoxCollider2D>().offset.y)+new Vector2(((width+extraLength)*direction),0)+Vector2.down*GetComponentInChildren<BoxCollider2D>().size.y/2.2f,Vector2.down,extraLength,(1<<3));
+        if (!gmanager.introCutscene&&(state=="stand"||state=="walk"||state =="splat"||state =="uncurl")&&!bonk&&hito.normal==Vector2.up&&hito!=null&&hito.transform.tag!="water"){
             bod.isKinematic = false;
             bod.velocity = moveVector;
         }else if(!hit&&!inBall){
+            bod.isKinematic = true;
             bod.velocity = Vector2.zero;
         }
+        Debug.Log("normal is "+hito.normal.x+","+hito.normal.y);
 
         
     }
@@ -410,10 +414,10 @@ public class Movement : MonoBehaviour
             //Debug.Log("collided ground is true");
         }
         int layerMask = (LayerMask.GetMask("Stage"));
-        RaycastHit2D hit = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y)+collider.offset,Vector2.down,length+extraLength,layerMask);
-        if(hit.collider!=null){
-            if(hit.normal==Vector2.up&&(state=="uncurl"||state=="stand"||state=="splat")&&hit.transform.tag!="water")
-                transform.position = hit.point-transform.Find("BoxCollider").GetComponent<BoxCollider2D>().offset+transform.Find("BoxCollider").GetComponent<BoxCollider2D>().size.y/2.1f*Vector2.up;
+        RaycastHit2D hittt = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y)+collider.offset,Vector2.down,length+extraLength,layerMask);
+        if(hittt.collider!=null){
+            if(hittt.normal==Vector2.up&&(state=="uncurl"||state=="stand"||state=="splat")&&hittt.transform.tag!="water")
+                transform.position = hittt.point-transform.Find("BoxCollider").GetComponent<BoxCollider2D>().offset+transform.Find("BoxCollider").GetComponent<BoxCollider2D>().size.y/2.1f*Vector2.up;
             //Debug.Log("we hit "+hit.transform.name+" with a length of "+length);
             if(!bonkland)
                 airTime = 0;

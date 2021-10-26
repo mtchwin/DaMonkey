@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: effb9a445b831fd4e94940c23b859c3b
+guid: 36b35377ae30ad1488821e5eedc400fc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4364034832326165938
-    second: bg_0
+      213: -5931099714830201626
+    second: GrassAni-Sheet_0
   - first:
-      213: 8783001233447891778
-    second: bg_1
+      213: 7720648920946538227
+    second: GrassAni-Sheet_1
   - first:
-      213: -2956382079364231701
-    second: bg_2
+      213: 9043100798711152585
+    second: GrassAni-Sheet_2
   - first:
-      213: -5914926414898421119
-    second: bg_3
+      213: -6322081037468113944
+    second: GrassAni-Sheet_3
   - first:
-      213: 5417047536705764260
-    second: bg_4
+      213: 8064059208167795890
+    second: GrassAni-Sheet_4
   - first:
-      213: -5674677071505025871
-    second: bg_5
+      213: 1265388218427575631
+    second: GrassAni-Sheet_5
   - first:
-      213: -6423886090276725508
-    second: bg_6
+      213: -6999447785180802411
+    second: GrassAni-Sheet_6
   - first:
-      213: 380707909470287619
-    second: bg_7
+      213: 3014554239807630309
+    second: GrassAni-Sheet_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,10 +89,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,10 +101,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 16384
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,10 +113,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
-    maxTextureSize: 16384
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,10 +137,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
-    maxTextureSize: 16384
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -149,10 +149,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 16384
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -163,13 +163,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bg_0
+      name: GrassAni-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1456
-        height: 1728
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4a74cf0175df63c0800000000000000
-      internalID: -4364034832326165938
+      spriteID: 6ec0022db3080bda0800000000000000
+      internalID: -5931099714830201626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_1
+      name: GrassAni-Sheet_1
       rect:
         serializedVersion: 2
-        x: 1456
+        x: 16
         y: 0
-        width: 1456
-        height: 1728
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +198,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 243ba75661d73e970800000000000000
-      internalID: 8783001233447891778
+      spriteID: 3f67580b941452b60800000000000000
+      internalID: 7720648920946538227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_2
+      name: GrassAni-Sheet_2
       rect:
         serializedVersion: 2
-        x: 2912
+        x: 32
         y: 0
-        width: 1456
-        height: 1728
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bed0a239922d8f6d0800000000000000
-      internalID: -2956382079364231701
+      spriteID: 9cfba37934c8f7d70800000000000000
+      internalID: 9043100798711152585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_3
+      name: GrassAni-Sheet_3
       rect:
         serializedVersion: 2
-        x: 4368
+        x: 48
         y: 0
-        width: 1456
-        height: 1728
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 182a767a3c5f9eda0800000000000000
-      internalID: -5914926414898421119
+      spriteID: 8e3ea70dac47348a0800000000000000
+      internalID: -6322081037468113944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_4
+      name: GrassAni-Sheet_4
       rect:
         serializedVersion: 2
-        x: 5824
+        x: 64
         y: 0
-        width: 1456
-        height: 1728
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ab70cca8083d2b40800000000000000
-      internalID: 5417047536705764260
+      spriteID: 2bc2f86ef1b49ef60800000000000000
+      internalID: 8064059208167795890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_5
+      name: GrassAni-Sheet_5
       rect:
         serializedVersion: 2
-        x: 7280
+        x: 80
         y: 0
-        width: 1456
-        height: 1728
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,20 +282,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b493e9e44f7f31b0800000000000000
-      internalID: -5674677071505025871
+      spriteID: f4d075e51ef8f8110800000000000000
+      internalID: 1265388218427575631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_6
+      name: GrassAni-Sheet_6
       rect:
         serializedVersion: 2
-        x: 8736
+        x: 96
         y: 0
-        width: 1456
-        height: 1728
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,20 +303,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfc9b77d2a5c9d6a0800000000000000
-      internalID: -6423886090276725508
+      spriteID: 5925764f257fcde90800000000000000
+      internalID: -6999447785180802411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bg_7
+      name: GrassAni-Sheet_7
       rect:
         serializedVersion: 2
-        x: 10192
+        x: 112
         y: 0
-        width: 1456
-        height: 1728
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,8 +324,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 307782b93db884500800000000000000
-      internalID: 380707909470287619
+      spriteID: 5eba1ebfb19d5d920800000000000000
+      internalID: 3014554239807630309
       vertices: []
       indices: 
       edges: []
@@ -333,7 +333,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 5de5a07b466769a4fb96f8b1b8748aba
     internalID: 0
     vertices: []
     indices: 
