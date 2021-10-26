@@ -195,7 +195,7 @@ public class Movement : MonoBehaviour
                 transform.Find("Monkey").localEulerAngles=Vector3.zero;
                 transform.Find("Shadow").localEulerAngles=Vector3.zero;
                 RaycastHit2D spltHit = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y),Vector2.down,0.2f+extraLength,(1<<3));
-                if(spltHit!=null&&(spltHit.normal==Vector2.up||bod.velocity.magnitude<=0.15f)){
+                if(spltHit!=null&&(spltHit.normal==Vector2.up||bod.velocity.magnitude<=0.2f)){
                     if(bonkland){
                         break;
                     }
