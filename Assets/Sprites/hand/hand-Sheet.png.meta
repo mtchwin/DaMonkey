@@ -1,0 +1,3207 @@
+fileFormatVersion: 2
+guid: 6484e7d24031ab245b9db012342f5024
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7653396723641202828
+    second: hand-Sheet_0
+  - first:
+      213: -268280329703842003
+    second: hand-Sheet_1
+  - first:
+      213: 6276428725978944824
+    second: hand-Sheet_2
+  - first:
+      213: 8546316044827467467
+    second: hand-Sheet_3
+  - first:
+      213: 9033461518441303906
+    second: hand-Sheet_4
+  - first:
+      213: -897369178853018974
+    second: hand-Sheet_5
+  - first:
+      213: 5025830294006954872
+    second: hand-Sheet_6
+  - first:
+      213: -8500576216426221673
+    second: hand-Sheet_7
+  - first:
+      213: -3714210445680363296
+    second: hand-Sheet_8
+  - first:
+      213: 6461511569212294326
+    second: hand-Sheet_9
+  - first:
+      213: 2023987179308309454
+    second: hand-Sheet_10
+  - first:
+      213: 5898203625844989159
+    second: hand-Sheet_11
+  - first:
+      213: 4953532276550024484
+    second: hand-Sheet_12
+  - first:
+      213: 5972769482304046054
+    second: hand-Sheet_13
+  - first:
+      213: -408763121887508103
+    second: hand-Sheet_14
+  - first:
+      213: 5642102067145740260
+    second: hand-Sheet_15
+  - first:
+      213: 6256662198838794656
+    second: hand-Sheet_16
+  - first:
+      213: -3005139533910248089
+    second: hand-Sheet_17
+  - first:
+      213: -949823612129272503
+    second: hand-Sheet_18
+  - first:
+      213: 6817553034346032015
+    second: hand-Sheet_19
+  - first:
+      213: 1235452302628609634
+    second: hand-Sheet_20
+  - first:
+      213: -5223101784748369691
+    second: hand-Sheet_21
+  - first:
+      213: 4877320113880578365
+    second: hand-Sheet_22
+  - first:
+      213: -4592732140031063184
+    second: hand-Sheet_23
+  - first:
+      213: -425085429332282922
+    second: hand-Sheet_24
+  - first:
+      213: -6645852397371167607
+    second: hand-Sheet_25
+  - first:
+      213: 6657339373634833317
+    second: hand-Sheet_26
+  - first:
+      213: -2770177975751020648
+    second: hand-Sheet_27
+  - first:
+      213: 6394091869496448610
+    second: hand-Sheet_28
+  - first:
+      213: -3235282596136859915
+    second: hand-Sheet_29
+  - first:
+      213: 8600708931323898863
+    second: hand-Sheet_30
+  - first:
+      213: 1312639099157264564
+    second: hand-Sheet_31
+  - first:
+      213: -128119327415565833
+    second: hand-Sheet_32
+  - first:
+      213: -2184056296042664572
+    second: hand-Sheet_33
+  - first:
+      213: -4708303884018114247
+    second: hand-Sheet_34
+  - first:
+      213: 3918219029649132185
+    second: hand-Sheet_35
+  - first:
+      213: 4243491485993494616
+    second: hand-Sheet_36
+  - first:
+      213: -3320671593185397151
+    second: hand-Sheet_37
+  - first:
+      213: -8667311511184815817
+    second: hand-Sheet_38
+  - first:
+      213: 2487142048730806920
+    second: hand-Sheet_39
+  - first:
+      213: 6370105916843431388
+    second: hand-Sheet_40
+  - first:
+      213: 8229321826518647569
+    second: hand-Sheet_41
+  - first:
+      213: -6802652112971334389
+    second: hand-Sheet_42
+  - first:
+      213: -7470114359056670452
+    second: hand-Sheet_43
+  - first:
+      213: -630583508355280743
+    second: hand-Sheet_44
+  - first:
+      213: 5583964057806682475
+    second: hand-Sheet_45
+  - first:
+      213: 969962817259815819
+    second: hand-Sheet_46
+  - first:
+      213: 3762215651553910239
+    second: hand-Sheet_47
+  - first:
+      213: 7484487785351496378
+    second: hand-Sheet_48
+  - first:
+      213: -8146255600625707724
+    second: hand-Sheet_49
+  - first:
+      213: 8226048682664290892
+    second: hand-Sheet_50
+  - first:
+      213: 2181610667031337773
+    second: hand-Sheet_51
+  - first:
+      213: -2289508476852958143
+    second: hand-Sheet_52
+  - first:
+      213: -231612045751337788
+    second: hand-Sheet_53
+  - first:
+      213: 8874332503490494536
+    second: hand-Sheet_54
+  - first:
+      213: -2784184393583634655
+    second: hand-Sheet_55
+  - first:
+      213: 4290988282150801636
+    second: hand-Sheet_56
+  - first:
+      213: 2574257897492996472
+    second: hand-Sheet_57
+  - first:
+      213: -8980677339252246337
+    second: hand-Sheet_58
+  - first:
+      213: 8332791843652331441
+    second: hand-Sheet_59
+  - first:
+      213: -491583558412530345
+    second: hand-Sheet_60
+  - first:
+      213: -6367915421550433192
+    second: hand-Sheet_61
+  - first:
+      213: 1540605936019680617
+    second: hand-Sheet_62
+  - first:
+      213: 1515788687614900060
+    second: hand-Sheet_63
+  - first:
+      213: 5328646599298716301
+    second: hand-Sheet_64
+  - first:
+      213: 7049100225808236303
+    second: hand-Sheet_65
+  - first:
+      213: 2759779259236879243
+    second: hand-Sheet_66
+  - first:
+      213: 6453884633577330382
+    second: hand-Sheet_67
+  - first:
+      213: -1061029577927764432
+    second: hand-Sheet_68
+  - first:
+      213: -8078545617529385441
+    second: hand-Sheet_69
+  - first:
+      213: -7313863836919418308
+    second: hand-Sheet_70
+  - first:
+      213: -824774321561593279
+    second: hand-Sheet_71
+  - first:
+      213: 1670180588488360110
+    second: hand-Sheet_72
+  - first:
+      213: 6220141994470344532
+    second: hand-Sheet_73
+  - first:
+      213: 3110671379412245499
+    second: hand-Sheet_74
+  - first:
+      213: -1598976837990720462
+    second: hand-Sheet_75
+  - first:
+      213: 5511190654869190681
+    second: hand-Sheet_76
+  - first:
+      213: 902937709112226317
+    second: hand-Sheet_77
+  - first:
+      213: 9041052866676071317
+    second: hand-Sheet_78
+  - first:
+      213: 1321283592968961700
+    second: hand-Sheet_79
+  - first:
+      213: 1938893378064885640
+    second: hand-Sheet_80
+  - first:
+      213: 7567836711644361115
+    second: hand-Sheet_81
+  - first:
+      213: 94784140494872084
+    second: hand-Sheet_82
+  - first:
+      213: 2075412077701333218
+    second: hand-Sheet_83
+  - first:
+      213: -8641806967074038969
+    second: hand-Sheet_84
+  - first:
+      213: -2737157171710890236
+    second: hand-Sheet_85
+  - first:
+      213: -352022562832973198
+    second: hand-Sheet_86
+  - first:
+      213: -1698471082567970123
+    second: hand-Sheet_87
+  - first:
+      213: -4379172312749095645
+    second: hand-Sheet_88
+  - first:
+      213: -6297956165856228591
+    second: hand-Sheet_89
+  - first:
+      213: -1407364763388585159
+    second: hand-Sheet_90
+  - first:
+      213: -420930028793984222
+    second: hand-Sheet_91
+  - first:
+      213: 5530095302757367872
+    second: hand-Sheet_92
+  - first:
+      213: -5048592872760230393
+    second: hand-Sheet_93
+  - first:
+      213: -8674856034311481064
+    second: hand-Sheet_94
+  - first:
+      213: -5417971397966260343
+    second: hand-Sheet_95
+  - first:
+      213: -2684440844642825035
+    second: hand-Sheet_96
+  - first:
+      213: 6761370069679600323
+    second: hand-Sheet_97
+  - first:
+      213: -8649270743618109588
+    second: hand-Sheet_98
+  - first:
+      213: -134785753378359219
+    second: hand-Sheet_99
+  - first:
+      213: -3116734684830260803
+    second: hand-Sheet_100
+  - first:
+      213: 4136110345401119144
+    second: hand-Sheet_101
+  - first:
+      213: 3678109225919837767
+    second: hand-Sheet_102
+  - first:
+      213: 8623797095108453991
+    second: hand-Sheet_103
+  - first:
+      213: -2795026190105917761
+    second: hand-Sheet_104
+  - first:
+      213: -4000417046311934195
+    second: hand-Sheet_105
+  - first:
+      213: -572822055333617916
+    second: hand-Sheet_106
+  - first:
+      213: 2725641379137589768
+    second: hand-Sheet_107
+  - first:
+      213: -1783025205923661894
+    second: hand-Sheet_108
+  - first:
+      213: 671713448854137906
+    second: hand-Sheet_109
+  - first:
+      213: -1365421537564420102
+    second: hand-Sheet_110
+  - first:
+      213: 7689307537127505218
+    second: hand-Sheet_111
+  - first:
+      213: 701870136420636157
+    second: hand-Sheet_112
+  - first:
+      213: 6005176172126814846
+    second: hand-Sheet_113
+  - first:
+      213: -9221224648310769231
+    second: hand-Sheet_114
+  - first:
+      213: 6098630568448307729
+    second: hand-Sheet_115
+  - first:
+      213: 8877807764546991456
+    second: hand-Sheet_116
+  - first:
+      213: 1193733803120841100
+    second: hand-Sheet_117
+  - first:
+      213: 9157249055407507582
+    second: hand-Sheet_118
+  - first:
+      213: -2817138824645365201
+    second: hand-Sheet_119
+  - first:
+      213: -162246958493698796
+    second: hand-Sheet_120
+  - first:
+      213: -2368212718498259581
+    second: hand-Sheet_121
+  - first:
+      213: 7785239481519836501
+    second: hand-Sheet_122
+  - first:
+      213: 3441562754703078529
+    second: hand-Sheet_123
+  - first:
+      213: 5855918974232988202
+    second: hand-Sheet_124
+  - first:
+      213: 7905636320842809192
+    second: hand-Sheet_125
+  - first:
+      213: 1672420235508905371
+    second: hand-Sheet_126
+  - first:
+      213: 2670872247158069978
+    second: hand-Sheet_127
+  - first:
+      213: -2931394195207958754
+    second: hand-Sheet_128
+  - first:
+      213: -1961709235258364573
+    second: hand-Sheet_129
+  - first:
+      213: -4543768413147888392
+    second: hand-Sheet_130
+  - first:
+      213: 8664107819940640894
+    second: hand-Sheet_131
+  - first:
+      213: 3525333514200116177
+    second: hand-Sheet_132
+  - first:
+      213: -3709004374275331835
+    second: hand-Sheet_133
+  - first:
+      213: 5704013261974477271
+    second: hand-Sheet_134
+  - first:
+      213: -788076519201467667
+    second: hand-Sheet_135
+  - first:
+      213: 1724539498623985832
+    second: hand-Sheet_136
+  - first:
+      213: -1014045922347867538
+    second: hand-Sheet_137
+  - first:
+      213: 2812225244639345848
+    second: hand-Sheet_138
+  - first:
+      213: -6029208196089841509
+    second: hand-Sheet_139
+  - first:
+      213: -4533692084400665496
+    second: hand-Sheet_140
+  - first:
+      213: 4353835553325471401
+    second: hand-Sheet_141
+  - first:
+      213: -246163504215744247
+    second: hand-Sheet_142
+  - first:
+      213: -2493665873126684023
+    second: hand-Sheet_143
+  - first:
+      213: -8028925173721062926
+    second: hand-Sheet_144
+  - first:
+      213: 1455763882664059187
+    second: hand-Sheet_145
+  - first:
+      213: 9189677971795961181
+    second: hand-Sheet_146
+  - first:
+      213: 4108731808167023169
+    second: hand-Sheet_147
+  - first:
+      213: -5980899184252057692
+    second: hand-Sheet_148
+  - first:
+      213: 768555202147461920
+    second: hand-Sheet_149
+  - first:
+      213: 5470381006708560667
+    second: hand-Sheet_150
+  - first:
+      213: -3818474828972330503
+    second: hand-Sheet_151
+  - first:
+      213: 7090446016746704219
+    second: hand-Sheet_152
+  - first:
+      213: -8566436501945164903
+    second: hand-Sheet_153
+  - first:
+      213: 5166462528162775459
+    second: hand-Sheet_154
+  - first:
+      213: -8041431527417506720
+    second: hand-Sheet_155
+  - first:
+      213: 2103511916866253530
+    second: hand-Sheet_156
+  - first:
+      213: -3225107274084611998
+    second: hand-Sheet_157
+  - first:
+      213: 3844852234085514907
+    second: hand-Sheet_158
+  - first:
+      213: 1485887097114999945
+    second: hand-Sheet_159
+  - first:
+      213: -3357615048400517561
+    second: hand-Sheet_160
+  - first:
+      213: -8093544106887212903
+    second: hand-Sheet_161
+  - first:
+      213: -3166484104133369542
+    second: hand-Sheet_162
+  - first:
+      213: 5848777918814912668
+    second: hand-Sheet_163
+  - first:
+      213: -7859288076372313666
+    second: hand-Sheet_164
+  - first:
+      213: -5816371632795355831
+    second: hand-Sheet_165
+  - first:
+      213: -2949220060502876350
+    second: hand-Sheet_166
+  - first:
+      213: 8764620637270392842
+    second: hand-Sheet_167
+  - first:
+      213: 5543164725428295276
+    second: hand-Sheet_168
+  - first:
+      213: 9134822837813213206
+    second: hand-Sheet_169
+  - first:
+      213: -4617732962000276360
+    second: hand-Sheet_170
+  - first:
+      213: 4286162921865473350
+    second: hand-Sheet_171
+  - first:
+      213: -1635599381798370134
+    second: hand-Sheet_172
+  - first:
+      213: -7844975040735731261
+    second: hand-Sheet_173
+  - first:
+      213: 6610370332466552881
+    second: hand-Sheet_174
+  - first:
+      213: -3828031931836223323
+    second: hand-Sheet_175
+  - first:
+      213: -197935979162940306
+    second: hand-Sheet_176
+  - first:
+      213: -2259277781829033506
+    second: hand-Sheet_177
+  - first:
+      213: 2881082640137096974
+    second: hand-Sheet_178
+  - first:
+      213: 1157566231300967822
+    second: hand-Sheet_179
+  - first:
+      213: -4936536174677080874
+    second: hand-Sheet_180
+  - first:
+      213: 6860725016768837228
+    second: hand-Sheet_181
+  - first:
+      213: 3316774411685491166
+    second: hand-Sheet_182
+  - first:
+      213: -119880772258722407
+    second: hand-Sheet_183
+  - first:
+      213: -8089077796653621501
+    second: hand-Sheet_184
+  - first:
+      213: 1429560236995957455
+    second: hand-Sheet_185
+  - first:
+      213: 2956457652330892603
+    second: hand-Sheet_186
+  - first:
+      213: -1136206049096988692
+    second: hand-Sheet_187
+  - first:
+      213: 8200121262441334981
+    second: hand-Sheet_188
+  - first:
+      213: 4050620494426621392
+    second: hand-Sheet_189
+  - first:
+      213: 5104103154923922241
+    second: hand-Sheet_190
+  - first:
+      213: -7454494118968857148
+    second: hand-Sheet_191
+  - first:
+      213: 4089646954385690158
+    second: hand-Sheet_192
+  - first:
+      213: 261167613420728506
+    second: hand-Sheet_193
+  - first:
+      213: 420406918742891986
+    second: hand-Sheet_194
+  - first:
+      213: 3366625530522343608
+    second: hand-Sheet_195
+  - first:
+      213: -4023350238263663936
+    second: hand-Sheet_196
+  - first:
+      213: 9172034365441314878
+    second: hand-Sheet_197
+  - first:
+      213: 1973785194561951411
+    second: hand-Sheet_198
+  - first:
+      213: 1658598136164138671
+    second: hand-Sheet_199
+  - first:
+      213: -8059653991456663310
+    second: hand-Sheet_200
+  - first:
+      213: -6646442665968663535
+    second: hand-Sheet_201
+  - first:
+      213: 2402265506177041293
+    second: hand-Sheet_202
+  - first:
+      213: -3473785702031601796
+    second: hand-Sheet_203
+  - first:
+      213: -2052784534453705059
+    second: hand-Sheet_204
+  - first:
+      213: 6246532425451346611
+    second: hand-Sheet_205
+  - first:
+      213: 7659937014168802931
+    second: hand-Sheet_206
+  - first:
+      213: -9185596468058310230
+    second: hand-Sheet_207
+  - first:
+      213: 3680291425968030265
+    second: hand-Sheet_208
+  - first:
+      213: 2557812716141617241
+    second: hand-Sheet_209
+  - first:
+      213: -4197581652911820395
+    second: hand-Sheet_210
+  - first:
+      213: -3934285659697111429
+    second: hand-Sheet_211
+  - first:
+      213: 6579993291342750286
+    second: hand-Sheet_212
+  - first:
+      213: 1522633505864950920
+    second: hand-Sheet_213
+  - first:
+      213: -1824203962393019228
+    second: hand-Sheet_214
+  - first:
+      213: 133240369071460969
+    second: hand-Sheet_215
+  - first:
+      213: 5735756939056341047
+    second: hand-Sheet_216
+  - first:
+      213: 6879612155409010622
+    second: hand-Sheet_217
+  - first:
+      213: -2930439050163360829
+    second: hand-Sheet_218
+  - first:
+      213: 7092903688332973654
+    second: hand-Sheet_219
+  - first:
+      213: -6785111260253567269
+    second: hand-Sheet_220
+  - first:
+      213: -3516171307387362737
+    second: hand-Sheet_221
+  - first:
+      213: -5252678811462042215
+    second: hand-Sheet_222
+  - first:
+      213: 1540820018048354075
+    second: hand-Sheet_223
+  - first:
+      213: -623190364672594829
+    second: hand-Sheet_224
+  - first:
+      213: -5980414363231545695
+    second: hand-Sheet_225
+  - first:
+      213: 4553354474454712959
+    second: hand-Sheet_226
+  - first:
+      213: -7779442967261150870
+    second: hand-Sheet_227
+  - first:
+      213: 6264113919671198065
+    second: hand-Sheet_228
+  - first:
+      213: -2944150117205048324
+    second: hand-Sheet_229
+  - first:
+      213: -419121674915943362
+    second: hand-Sheet_230
+  - first:
+      213: 411937838745943414
+    second: hand-Sheet_231
+  - first:
+      213: 9184305615311213158
+    second: hand-Sheet_232
+  - first:
+      213: -7088750660051046702
+    second: hand-Sheet_233
+  - first:
+      213: -2815889607763565806
+    second: hand-Sheet_234
+  - first:
+      213: -658434863197865089
+    second: hand-Sheet_235
+  - first:
+      213: 4646688932880095663
+    second: hand-Sheet_236
+  - first:
+      213: -8712402723274717854
+    second: hand-Sheet_237
+  - first:
+      213: 2243899709671919745
+    second: hand-Sheet_238
+  - first:
+      213: 3499178304154207319
+    second: hand-Sheet_239
+  - first:
+      213: -6419243029825987969
+    second: hand-Sheet_240
+  - first:
+      213: 2695560186268281142
+    second: hand-Sheet_241
+  - first:
+      213: 8524546949375806460
+    second: hand-Sheet_242
+  - first:
+      213: 6374161607856937873
+    second: hand-Sheet_243
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hand-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88b5cd45c3563a60800000000000000
+      internalID: 7653396723641202828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f17c72670e64cf0800000000000000
+      internalID: -268280329703842003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835580e1caa5a1750800000000000000
+      internalID: 6276428725978944824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce9926992d9a9670800000000000000
+      internalID: 8546316044827467467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fcad2c36d4d5d70800000000000000
+      internalID: 9033461518441303906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2f41e7c77eb83f0800000000000000
+      internalID: -897369178853018974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b7eaf36065fb540800000000000000
+      internalID: 5025830294006954872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fe7c918f2e70a80800000000000000
+      internalID: -8500576216426221673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e83d244749747cc0800000000000000
+      internalID: -3714210445680363296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4c9f2a986eba950800000000000000
+      internalID: 6461511569212294326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbdd94bd95a61c10800000000000000
+      internalID: 2023987179308309454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec596b92f0aad150800000000000000
+      internalID: 5898203625844989159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d323f4c5b7eb440800000000000000
+      internalID: 4953532276550024484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3c606f23a83e250800000000000000
+      internalID: 5972769482304046054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9798d9a3b18c35af0800000000000000
+      internalID: -408763121887508103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef08badfe5cc4e40800000000000000
+      internalID: 5642102067145740260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a99661ee1124d650800000000000000
+      internalID: 6256662198838794656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765fbcc04899b46d0800000000000000
+      internalID: -3005139533910248089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d91c7057c81d2f0800000000000000
+      internalID: -949823612129272503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8be4912d50dc9e50800000000000000
+      internalID: 6817553034346032015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26edd13d255352110800000000000000
+      internalID: 1235452302628609634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e85d569990d387b0800000000000000
+      internalID: -5223101784748369691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3938bb6dc8bfa340800000000000000
+      internalID: 4877320113880578365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bcde4b3765340c0800000000000000
+      internalID: -4592732140031063184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d17471ed0bc91af0800000000000000
+      internalID: -425085429332282922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c6301b47035c3a0800000000000000
+      internalID: -6645852397371167607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abc9b263ee936c50800000000000000
+      internalID: 6657339373634833317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fefbedec95e89d0800000000000000
+      internalID: -2770177975751020648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2669c8e8da06cb850800000000000000
+      internalID: 6394091869496448610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6424dbe97f913d0800000000000000
+      internalID: -3235282596136859915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb271c543bdb5770800000000000000
+      internalID: 8600708931323898863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 3968
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8be875e4e673210800000000000000
+      internalID: 1312639099157264564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f188888624d83ef0800000000000000
+      internalID: -128119327415565833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48debe0de5ca0b1e0800000000000000
+      internalID: -2184056296042664572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 4352
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931228a209eb8aeb0800000000000000
+      internalID: -4708303884018114247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a8966a27f406630800000000000000
+      internalID: 3918219029649132185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85869060609e3ea30800000000000000
+      internalID: 4243491485993494616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 4736
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166347897ca9ae1d0800000000000000
+      internalID: -3320671593185397151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 4864
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739cc2a1a1687b780800000000000000
+      internalID: -8667311511184815817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 4992
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a7980148a148220800000000000000
+      internalID: 2487142048730806920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd51113c499276850800000000000000
+      internalID: 6370105916843431388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 5248
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1134304b99c643270800000000000000
+      internalID: 8229321826518647569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d78cbf1ff1891a0800000000000000
+      internalID: -6802652112971334389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01e1ec9192d45890800000000000000
+      internalID: -7470114359056670452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990934fd3a7bf37f0800000000000000
+      internalID: -630583508355280743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69bd18b9b93e7d40800000000000000
+      internalID: 5583964057806682475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 5888
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83cb101b00067d00800000000000000
+      internalID: 969962817259815819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 6016
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd1947b333163430800000000000000
+      internalID: 3762215651553910239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab240ab7cfd3ed760800000000000000
+      internalID: 7484487785351496378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 6272
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4351b2321bfa2fe80800000000000000
+      internalID: -8146255600625707724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a664381bbc82270800000000000000
+      internalID: 8226048682664290892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 6528
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b1b9ec753a64e10800000000000000
+      internalID: 2181610667031337773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 6656
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c0feeab280a30e0800000000000000
+      internalID: -2289508476852958143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 6784
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc3a4f421629ccf0800000000000000
+      internalID: -231612045751337788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8400149c466f72b70800000000000000
+      internalID: 8874332503490494536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127d2479b079c59d0800000000000000
+      internalID: -2784184393583634655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e056f4ab17ac8b30800000000000000
+      internalID: 4290988282150801636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 7296
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87160543be999b320800000000000000
+      internalID: 2574257897492996472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 7424
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb83877aa893e5380800000000000000
+      internalID: -8980677339252246337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 7552
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b76b24680604a370800000000000000
+      internalID: 8332791843652331441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d066fab5b8d29f0800000000000000
+      internalID: -491583558412530345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 7808
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c21caa9ae90a7a0800000000000000
+      internalID: -6367915421550433192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 7936
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96daf43bfe4516510800000000000000
+      internalID: 1540605936019680617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5777d7c7c9290510800000000000000
+      internalID: 1515788687614900060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d821bc489d723f940800000000000000
+      internalID: 5328646599298716301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 8320
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ffc61ce4f63d160800000000000000
+      internalID: 7049100225808236303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 8448
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b0e454d94bc4620800000000000000
+      internalID: 2759779259236879243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 8576
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec69abd41edc09950800000000000000
+      internalID: 6453884633577330382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 8704
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036de6f68377641f0800000000000000
+      internalID: -1061029577927764432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 8832
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e4f55109d33ef80800000000000000
+      internalID: -8078545617529385441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 8960
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32b7d0479fef7a90800000000000000
+      internalID: -7313863836919418308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 9088
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a1577df10dd84f0800000000000000
+      internalID: -824774321561593279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea00a9f656cad2710800000000000000
+      internalID: 1670180588488360110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 9344
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45705e03032625650800000000000000
+      internalID: 6220141994470344532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 9472
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb57d673235b2b20800000000000000
+      internalID: 3110671379412245499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c5c7f990b4fc9e0800000000000000
+      internalID: -1598976837990720462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 9728
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9183ee873beab7c40800000000000000
+      internalID: 5511190654869190681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 9856
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0270fdff01e78c00800000000000000
+      internalID: 902937709112226317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 9984
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b11c14ea5487d70800000000000000
+      internalID: 9041052866676071317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 10112
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae77766d64265210800000000000000
+      internalID: 1321283592968961700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8872ae0314558ea10800000000000000
+      internalID: 1938893378064885640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 10368
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91f8b3a46b560960800000000000000
+      internalID: 7567836711644361115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 10496
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e99807cadb05100800000000000000
+      internalID: 94784140494872084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 10624
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e081f5e9485dcc10800000000000000
+      internalID: 2075412077701333218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 10752
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b5e068952221880800000000000000
+      internalID: -8641806967074038969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 10880
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f62cded0aa30ad0800000000000000
+      internalID: -2737157171710890236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 11008
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2720b6d185d5d1bf0800000000000000
+      internalID: -352022562832973198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 11136
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2534e9c81dd68e0800000000000000
+      internalID: -1698471082567970123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3254d50cbfd0a33c0800000000000000
+      internalID: -4379172312749095645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 11392
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b88233c3a2998a0800000000000000
+      internalID: -6297956165856228591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b52d84439087ce0800000000000000
+      internalID: -1407364763388585159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 11648
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b80767e5e882af0800000000000000
+      internalID: -420930028793984222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 11776
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040c8eec068debc40800000000000000
+      internalID: 5530095302757367872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 11904
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ebe83e78bcfe9b0800000000000000
+      internalID: -5048592872760230393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 12032
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819d53de568bc9780800000000000000
+      internalID: -8674856034311481064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 12160
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9879efc18bf7fc4b0800000000000000
+      internalID: -5417971397966260343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 12288
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcc38a4643febad0800000000000000
+      internalID: -2684440844642825035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 12416
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2f53e414635dd50800000000000000
+      internalID: 6761370069679600323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 12544
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fb670a51e97f780800000000000000
+      internalID: -8649270743618109588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 12672
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4879194215212ef0800000000000000
+      internalID: -134785753378359219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 12800
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1ad8b31522fb4d0800000000000000
+      internalID: -3116734684830260803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 12928
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1b371f17a666930800000000000000
+      internalID: 4136110345401119144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 13056
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746f9008ad44b0330800000000000000
+      internalID: 3678109225919837767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 13184
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7662cf464c1eda770800000000000000
+      internalID: 8623797095108453991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 13312
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6c2d02d721639d0800000000000000
+      internalID: -2795026190105917761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 13440
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07e82934e9ab78c0800000000000000
+      internalID: -4000417046311934195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 13568
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f9458206dec08f0800000000000000
+      internalID: -572822055333617916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 13696
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8021a9ca46c63d520800000000000000
+      internalID: 2725641379137589768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 13824
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab73a57a50c6147e0800000000000000
+      internalID: -1783025205923661894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 13952
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cadc5a2d7625900800000000000000
+      internalID: 671713448854137906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 14080
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af71ecc885c0d0de0800000000000000
+      internalID: -1365421537564420102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 453304156800b5b43956ac0bfc54410f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
