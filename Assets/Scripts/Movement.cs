@@ -172,10 +172,14 @@ public class Movement : MonoBehaviour
                     transform.Find("Shadow").Rotate(0,0,1500*-Time.deltaTime*strength);
                 }
                 if(bouncesRemaining<1){
+                        
                     foreach(GameObject water in GameObject.FindGameObjectsWithTag("water")){
                         water.GetComponent<BoxCollider2D>().isTrigger = true;
                     }
                 }
+            }
+            if(bod.velocity.magnitude<0.2f&&!bonk){
+                bouncesRemaining=-1;
             }
             if(Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y),Vector2.down,1,(1<<3))){
                 transform.Find("CircleCollider").GetComponent<CircleCollider2D>().sharedMaterial.bounciness = 0f;
