@@ -76,7 +76,7 @@ public class GameManager : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
         monk.GetComponent<Movement>().direction = -1;
-        StartCoroutine(monk.GetComponent<Movement>().swat("b"));
+        StartCoroutine(monk.GetComponent<Movement>().swat("t"));
         while(time<4.5f){
             time+=Time.deltaTime;
             yield return new WaitForEndOfFrame();

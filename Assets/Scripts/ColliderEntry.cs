@@ -45,10 +45,11 @@ public class ColliderEntry : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other) {
         int layerMask = ~((1<<LayerMask.NameToLayer("Default"))|(1<<LayerMask.NameToLayer("Ignore Raycast")));
-        gdetect = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y),Vector2.down,(99999),(layerMask));
+        
         if(!GetComponent<Collider2D>().enabled) {
             return;
         }
+        gdetect = Physics2D.Raycast(new Vector2(transform.position.x+0.0f*movement.direction,transform.position.y),Vector2.down,(99999),(layerMask));
         if(other.transform.name=="girlmonkey"){
             gmanager.introCutscene = true;
             gmanager.StartCoroutine("winGame");

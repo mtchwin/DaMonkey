@@ -18,7 +18,7 @@ public class Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        RaycastHit2D hitt = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y),Vector2.down,999,(1<<3));
+        RaycastHit2D hitt = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y),Vector2.down,9999,(1<<3));
         transform.position = hitt.point-transform.Find("BoxCollider").GetComponent<BoxCollider2D>().offset+transform.Find("BoxCollider").GetComponent<BoxCollider2D>().size.y/1.9f*Vector2.up;
         gmanager = GameObject.Find("GameManager").GetComponent<GameManager>();
         enableBox();
@@ -94,7 +94,7 @@ public class Movement : MonoBehaviour
                 if(time>1)
                     time =1;
                 yield return new WaitForEndOfFrame();
-                strength = time+.035f;
+                strength = time+.1f;
             }
         }
         if(strength<0.15)
@@ -134,7 +134,7 @@ public class Movement : MonoBehaviour
         hit = true;
         inBall = true;
         if(type=="b"){
-            bod.velocity=(Vector3.up+Vector3.right*direction)*13*strength;
+            bod.velocity=(Vector3.up*1.1f+Vector3.right*direction)*13*strength;
         }else if(type=="t"){
             bod.velocity=(Vector3.up/2+Vector3.right*direction)*13*strength;
         }
@@ -255,7 +255,7 @@ public class Movement : MonoBehaviour
         if(true){
             //if((transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.point-new Vector2(transform.position.x,transform.position.y)).magnitude<.3f&&transform.Find("CricleCollider").GetComponent<ColliderEntry>().gdetect.transform.name=="Grid"){
                 Debug.Log("gdetect.point was located at "+transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.point.x+","+transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.point.y);
-                transform.position = new Vector3 (transform.position.x,transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.point.y+.55f,transform.position.z);
+                transform.position = new Vector3 (transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.point.x,transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.point.y+.55f,transform.position.z);
             //}
                 
         }
@@ -293,7 +293,7 @@ public class Movement : MonoBehaviour
     }
 
     public void gravity(){
-        if(!isGrounded()&&inBall){
+        if(inBall){
             airTime+=Time.fixedDeltaTime;
             bod.velocity+=Vector2.down*(airTime)*2;
         }else{
@@ -333,11 +333,16 @@ public class Movement : MonoBehaviour
             direction = 1;
             //transform.Find("Shadow").localScale = new Vector3(-1,1,1);
         }
-        RaycastHit2D hito = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y)+new Vector2(GetComponentInChildren<BoxCollider2D>().offset.x*direction,GetComponentInChildren<BoxCollider2D>().offset.y)+new Vector2(((width+.1f)*direction),0)+Vector2.down*GetComponentInChildren<BoxCollider2D>().size.y/2.2f,Vector2.down,extraLength,(1<<3));
-        if (!gmanager.introCutscene&&(state=="stand"||state=="walk"||state =="splat"||state =="uncurl")&&!bonk&&hito.normal==Vector2.up&&hito!=null&&hito.transform.tag!="water"){
+        float verticality = 0;
+        if(transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.normal!=Vector2.up){
+            verticality = 0.2f;
+        }
+        RaycastHit2D hito = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y)+new Vector2(GetComponentInChildren<BoxCollider2D>().offset.x*direction,GetComponentInChildren<BoxCollider2D>().offset.y)+new Vector2(((width+.3f)*direction),0)+Vector2.down*GetComponentInChildren<BoxCollider2D>().size.y/2.2f,Vector2.down,extraLength,(1<<3));
+        if (!gmanager.introCutscene&&(state=="stand"||state=="walk"||state =="splat"||state =="uncurl")&&!bonk&&hito.normal==Vector2.up&&hito!=null&&hito.transform.tag!="water"&&(Mathf.Abs(transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.point.y-transform.position.y))<0.6f&&transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.normal==Vector2.up){
             bod.isKinematic = false;
             bod.velocity = moveVector;
         }else if(!hit&&!inBall){
+            Debug.Log("the vertical distance from ground point is"+Mathf.Abs(transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.point.y-transform.position.y));
             bod.isKinematic = true;
             bod.velocity = Vector2.zero;
         }
@@ -363,7 +368,7 @@ public class Movement : MonoBehaviour
             else if(uncurl){
                 state = "uncurl";
             }
-            else if(bod.velocity.magnitude<.01f){
+            else if(bod.velocity.magnitude<.1f){
                 state = "stand";
             }else {
                 if(!inBall&&!bonk){
