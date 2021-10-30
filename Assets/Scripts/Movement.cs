@@ -337,7 +337,7 @@ public class Movement : MonoBehaviour
         if(transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.normal!=Vector2.up){
             verticality = 0.2f;
         }
-        RaycastHit2D hito = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y)+new Vector2(GetComponentInChildren<BoxCollider2D>().offset.x*direction,GetComponentInChildren<BoxCollider2D>().offset.y)+new Vector2(((width+.3f)*direction),0)+Vector2.down*GetComponentInChildren<BoxCollider2D>().size.y/2.2f,Vector2.down,extraLength,(1<<3));
+        RaycastHit2D hito = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y)+new Vector2(GetComponentInChildren<BoxCollider2D>().offset.x*direction,GetComponentInChildren<BoxCollider2D>().offset.y)+new Vector2(((width+.1f)*direction),0)+Vector2.down*GetComponentInChildren<BoxCollider2D>().size.y/2.2f,Vector2.down,extraLength,(1<<3));
         if (!gmanager.introCutscene&&(state=="stand"||state=="walk"||state =="splat"||state =="uncurl")&&!bonk&&hito.normal==Vector2.up&&hito!=null&&hito.transform.tag!="water"&&(Mathf.Abs(transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.point.y-transform.position.y))<0.6f&&transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.normal==Vector2.up){
             bod.isKinematic = false;
             bod.velocity = moveVector;

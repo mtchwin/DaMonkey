@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 221518ef91623a7438a71fef23660601, type: 3}
   m_Name: WhiteBalance
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   temperature:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 19
     min: -100
     max: 100
   tint:
     m_OverrideState: 1
-    m_Value: 29
+    m_Value: 41
     min: -100
     max: 100
 --- !u!114 &11400000
@@ -51,17 +51,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 558a8e2b6826cf840aae193990ba9f2e, type: 3}
   m_Name: ShadowsMidtonesHighlights
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 0.6754505, y: 0.6557426, z: 1, w: 0.22076876}
+    m_Value: {x: 0.74503016, y: 0.8244982, z: 1, w: 0.11846697}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 0.9341756, y: 0.9754475, z: 1, w: -0.008176609}
+    m_Value: {x: 1, y: 0.48404646, z: 0.8274385, w: 0.13043483}
   highlights:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.961272, z: 0.98301786, w: 0.13082586}
+    m_Value: {x: 0.94629455, y: 1, z: 0.96699804, w: 0.28132987}
   shadowsStart:
     m_OverrideState: 1
     m_Value: 0
