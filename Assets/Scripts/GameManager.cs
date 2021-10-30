@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
         if(cutscenesOn){
             StartCoroutine("intro");
         }else{
+            GameObject.Find("intro").GetComponent<SpriteRenderer>().enabled = false;
             black.color = new Color(0,0,0,0);
         }
     }

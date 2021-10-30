@@ -8,6 +8,7 @@ public class Room : MonoBehaviour
 bool track1Fade, track2Fade;
 
 public int musicTrack;
+public float volume;
 public GameObject virtuaalCam, manager;
 public GameManager gmanager;
 public SpriteRenderer controls;
@@ -83,8 +84,8 @@ public SpriteRenderer controls;
     }
     private IEnumerator fadeInMusic(AudioSource sound){
         sound.Play();
-        while(sound.volume<.35){
-            sound.volume = Mathf.Lerp(sound.volume,.38f,Time.deltaTime*2);
+        while(sound.volume<volume-.03f){
+            sound.volume = Mathf.Lerp(sound.volume,volume,Time.deltaTime*2);
             yield return new WaitForEndOfFrame();
             switch(musicTrack){
             case 1:
@@ -102,7 +103,7 @@ public SpriteRenderer controls;
         }
             
         }
-        sound.volume = 0.38f;
+        sound.volume = volume;
     }
 
     private void OnTriggerExit2D(Collider2D other) {

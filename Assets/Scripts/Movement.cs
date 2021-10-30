@@ -18,6 +18,8 @@ public class Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        RaycastHit2D hitt = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y),Vector2.down,999,(1<<3));
+        transform.position = hitt.point-transform.Find("BoxCollider").GetComponent<BoxCollider2D>().offset+transform.Find("BoxCollider").GetComponent<BoxCollider2D>().size.y/1.9f*Vector2.up;
         gmanager = GameObject.Find("GameManager").GetComponent<GameManager>();
         enableBox();
         transform.Find("BoxCollider").GetComponent<BoxCollider2D>().sharedMaterial.bounciness = 0.4f;
@@ -46,7 +48,7 @@ public class Movement : MonoBehaviour
     }
 
     public void swat(){
-        if(!gmanager.introCutscene&&canSwat&&(state=="stand"||state=="walk"||state=="uncurl")){
+        if(!gmanager.introCutscene&&canSwat){
             if(inputZ){
                 canSwat=false;
                 StartCoroutine(swat("b"));
@@ -92,9 +94,11 @@ public class Movement : MonoBehaviour
                 if(time>1)
                     time =1;
                 yield return new WaitForEndOfFrame();
-                strength = time;
+                strength = time+.035f;
             }
         }
+        if(strength<0.15)
+            strength = 0.15f;
         //swat goes here
         animators[2].speed = 0.33f+time*1f; 
         animators[2].Play(type+"swing",0,.3f-time);
@@ -152,9 +156,6 @@ public class Movement : MonoBehaviour
         while(true){
             
             if(type=="b"){
-                foreach(GameObject water in GameObject.FindGameObjectsWithTag("water")){
-                    water.GetComponent<BoxCollider2D>().isTrigger = true;
-                }
                 if(bouncesRemaining<=0){
                     transform.Find("Monkey").localEulerAngles=Vector3.zero;
                     transform.Find("Shadow").localEulerAngles=Vector3.zero;
@@ -173,23 +174,23 @@ public class Movement : MonoBehaviour
                 }
                 if(bouncesRemaining<1){
                         
-                    foreach(GameObject water in GameObject.FindGameObjectsWithTag("water")){
-                        water.GetComponent<BoxCollider2D>().isTrigger = true;
-                    }
                 }
             }
-            if(bod.velocity.magnitude<0.2f&&!bonk){
-                bouncesRemaining=-1;
+            if(bouncesRemaining<1&&isGrounded()){
+                RaycastHit2D hittt = Physics2D.Raycast(new Vector2(transform.position.x+transform.Find("CircleCollider").GetComponent<CircleCollider2D>().radius,transform.position.y),Vector2.right,(.1f),1<<3);
+                if(new Vector2(Mathf.Abs(hittt.normal.x),hittt.normal.y)==new Vector2(1,0)){
+                    bouncesRemaining = -1;
+                }
+                
             }
-            if(Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y),Vector2.down,1,(1<<3))){
-                transform.Find("CircleCollider").GetComponent<CircleCollider2D>().sharedMaterial.bounciness = 0f;
+            if(bod.velocity.magnitude<0.2f){
+                bouncesRemaining=-1;
             }
             if(!gmanager.introCutscene)
                 hand.GetComponent<SpriteRenderer>().color = new Color(1,1,1,1-time*4);
             time+=Time.deltaTime;
             if(bonk)
             {
-                transform.Find("CircleCollider").GetComponent<CircleCollider2D>().sharedMaterial.friction = 0f;
                 transform.Find("CircleCollider").GetComponent<CircleCollider2D>().sharedMaterial.friction = 0f;
                 bonkTime+=Time.deltaTime;
                 transform.Find("Monkey").localEulerAngles=Vector3.zero;
@@ -209,7 +210,7 @@ public class Movement : MonoBehaviour
                 if(type=="b"||type=="t")
                     break;
                 else if(type=="t"){
-                    bod.constraints = RigidbodyConstraints2D.None;
+                    //bod.constraints = RigidbodyConstraints2D.None;
                     if(bod.velocity.magnitude<0.5f){
                         break;
                     }
@@ -217,14 +218,10 @@ public class Movement : MonoBehaviour
             }
             yield return new WaitForEndOfFrame();
         }
-        RaycastHit2D hitt = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y),Vector2.down,10,(1<<3));
-        enableBox();
-        if(hitt.normal!=Vector2.up)
-            bod.isKinematic = true;
+        //RaycastHit2D hitt = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y),Vector2.down,.4f,(1<<3));
         airTime = 0;
-        if(hitt!=null){
-            transform.position = hitt.point-transform.Find("BoxCollider").GetComponent<BoxCollider2D>().offset+transform.Find("BoxCollider").GetComponent<BoxCollider2D>().size.y/2.1f*Vector2.up;
-        }
+        
+        //Debug.Log("gdetect.point was located at "+transform.Find("BoxCollider").GetComponent<ColliderEntry>().gdetect.point.x+","+transform.Find("BoxCollider").GetComponent<ColliderEntry>().gdetect.point.y);
         hit = false;
         inBall = false;
         if(!bonkland){
@@ -239,6 +236,7 @@ public class Movement : MonoBehaviour
         foreach(GameObject water in GameObject.FindGameObjectsWithTag("water")){
             water.GetComponent<BoxCollider2D>().isTrigger = true;
         }
+        bod.velocity = Vector2.zero;
         bonk = false;
         bonkland = false;
         bonkTime = 0;
@@ -254,6 +252,14 @@ public class Movement : MonoBehaviour
         transform.Find("BoxCollider").GetComponent<BoxCollider2D>().sharedMaterial.friction = 1f;
         stateAssign();
         animate();
+        if(true){
+            //if((transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.point-new Vector2(transform.position.x,transform.position.y)).magnitude<.3f&&transform.Find("CricleCollider").GetComponent<ColliderEntry>().gdetect.transform.name=="Grid"){
+                Debug.Log("gdetect.point was located at "+transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.point.x+","+transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.point.y);
+                transform.position = new Vector3 (transform.position.x,transform.Find("CircleCollider").GetComponent<ColliderEntry>().gdetect.point.y+.55f,transform.position.z);
+            //}
+                
+        }
+        enableBox();
     }
 
     public void animate(){
@@ -287,7 +293,7 @@ public class Movement : MonoBehaviour
     }
 
     public void gravity(){
-        if(!isGrounded()){
+        if(!isGrounded()&&inBall){
             airTime+=Time.fixedDeltaTime;
             bod.velocity+=Vector2.down*(airTime)*2;
         }else{
@@ -327,7 +333,7 @@ public class Movement : MonoBehaviour
             direction = 1;
             //transform.Find("Shadow").localScale = new Vector3(-1,1,1);
         }
-        RaycastHit2D hito = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y)+new Vector2(GetComponentInChildren<BoxCollider2D>().offset.x*direction,GetComponentInChildren<BoxCollider2D>().offset.y)+new Vector2(((width+extraLength)*direction),0)+Vector2.down*GetComponentInChildren<BoxCollider2D>().size.y/2.2f,Vector2.down,extraLength,(1<<3));
+        RaycastHit2D hito = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y)+new Vector2(GetComponentInChildren<BoxCollider2D>().offset.x*direction,GetComponentInChildren<BoxCollider2D>().offset.y)+new Vector2(((width+.1f)*direction),0)+Vector2.down*GetComponentInChildren<BoxCollider2D>().size.y/2.2f,Vector2.down,extraLength,(1<<3));
         if (!gmanager.introCutscene&&(state=="stand"||state=="walk"||state =="splat"||state =="uncurl")&&!bonk&&hito.normal==Vector2.up&&hito!=null&&hito.transform.tag!="water"){
             bod.isKinematic = false;
             bod.velocity = moveVector;
@@ -335,7 +341,8 @@ public class Movement : MonoBehaviour
             bod.isKinematic = true;
             bod.velocity = Vector2.zero;
         }
-        Debug.Log("normal is "+hito.normal.x+","+hito.normal.y);
+        
+        //Debug.Log("normal is "+hito.normal.x+","+hito.normal.y);
 
         
     }
@@ -343,8 +350,10 @@ public class Movement : MonoBehaviour
     public void stateAssign(){
         if(hit&&!bonk){
             state = "hit";
+        }else if (bonk){
+            state = "bonk";
         }
-        else if(isGrounded()){
+        else if(true){
             if(swatting){
                 state = "swatting";
             }
@@ -357,24 +366,17 @@ public class Movement : MonoBehaviour
             else if(bod.velocity.magnitude<.01f){
                 state = "stand";
             }else {
-                if(!inBall){
+                if(!inBall&&!bonk){
                     state = "walk";
                 }else{
-                state = "roll";
+                //state = "roll";
                 }
             }
         }
         else if(!bonk){
             if(airTime>0.5f){
-                if(inBall){
-                    state = "airball";
-                }
-            }
-            else {
                 state = "fall";
             }
-        }else{
-            state = "bonk";
         }
     }
 
@@ -414,20 +416,19 @@ public class Movement : MonoBehaviour
             
        
         }
-        if(collidedGround){
-            //Debug.Log("collided ground is true");
-        }
         int layerMask = (LayerMask.GetMask("Stage"));
-        RaycastHit2D hittt = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y)+collider.offset,Vector2.down,length+extraLength,layerMask);
-        if(hittt.collider!=null){
+        float bonkExtra = 0;
+        if(bonk)
+            bonkExtra = .3f;
+        RaycastHit2D hittt = Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y)+collider.offset+Vector2.down*length,Vector2.down,(.1f+bonkExtra),1<<3);
+        if(hittt.collider!=null&&hittt!=null){
             if(hittt.normal==Vector2.up&&(state=="uncurl"||state=="stand"||state=="splat")&&hittt.transform.tag!="water")
-                transform.position = hittt.point-transform.Find("BoxCollider").GetComponent<BoxCollider2D>().offset+transform.Find("BoxCollider").GetComponent<BoxCollider2D>().size.y/2.1f*Vector2.up;
+                //transform.position = hittt.point-transform.Find("BoxCollider").GetComponent<BoxCollider2D>().offset+transform.Find("BoxCollider").GetComponent<BoxCollider2D>().size.y/1.9f*Vector2.up;
             //Debug.Log("we hit "+hit.transform.name+" with a length of "+length);
             if(!bonkland)
                 airTime = 0;
             return true;
         }else{
-            collidedGround = false;
             //Debug.Log("we hit nothing with a length of "+length);
             return false;
         }
